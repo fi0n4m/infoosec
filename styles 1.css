@@ -1,0 +1,218 @@
+
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #d9f8fd;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.login-page {
+    background: url('bghey.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(10, 10, 10);
+  }
+  
+  .login-page input[type="text"], 
+  .login-page input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 22px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #f3f1f1;
+  }
+  
+  .login-page input:focus {
+    background-color: #458cdd;
+    outline: none;
+    border: 2px solid #458cdd;
+  }
+  
+  .loginbtn {
+    background-color: #458cdd;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .loginbtn:hover {
+    opacity: 1;
+  }
+  
+
+  body.signup-page {
+    background-image: url('bghey.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .signup-page h2 {
+    color: #3d53ce;
+  }
+  
+  .signup-page input[type="text"], 
+  .signup-page input[type="password"], 
+  .signup-page input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 20px;
+    background: #0a0a0a;
+  }
+  
+  .signup-page input:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .registerbtn {
+    background-color: #458cdd;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+
+  body.index-page {
+    background-color: #f8f9fa;
+  }
+  
+  .index-page h1 {
+    color: #2c3e50;
+  }
+  
+  .index-page hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  body.home-page {
+    background-color: #f0f8ff;
+  }
+  
+  .home-page h1 {
+    position: absolute; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 2.5em;
+    margin: 0; 
+  }
+  
+  .link-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .link-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  body {
+    font-family: 'Arial, sans-serif';
+    background-color: rgb(0, 33, 48);
+    text-align: center;
+}
+.container {
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;  
+    max-width: 400px; 
+    margin: 0 auto;    
+    border-radius: 8px;
+}
+.profile-container {
+    padding: 16px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+}
+h1 {
+    color: #2c56e0;
+    margin-top: 50px;
+}
+.dashboardbtn {
+    background-color: #458cdd;
+    color: white;
+    padding: 14px 20px;  
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.dashboardbtn:hover {
+    opacity: 1;
+}
+.signout {
+    background-color: #b4b3b3;
+    text-align: center;
+}
+a {
+    color: rgb(250, 17, 17);
+}
+.profile-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2c56e0;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+}
+.player-info-btn {
+    background-color: #458cdd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.player-info-btn:hover {
+    background-color: #3578d4;
+}
